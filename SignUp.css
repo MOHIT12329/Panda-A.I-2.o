@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: url("https://i.postimg.cc/Jnf5wKfs/Chat-GPT-Image-Jun-4-2026-11-40-18-PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
