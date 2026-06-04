@@ -38,8 +38,8 @@ body {
         0 0 20px rgba(100,120,255,0.08),
         inset 0 1px 0 rgba(255,255,255,0.08);
 
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 
 }
 .greet {
@@ -50,6 +50,7 @@ body {
     margin-top: 1px;
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
     
 
 
@@ -170,7 +171,7 @@ body {
 .Login {
     width: 100%;
     height: 40px;
-    background-color: #B5A500;
+    background-color: #fafafa;
     transition: 0.3s;
     color: #fff;
     font-size: 15px;
@@ -197,8 +198,144 @@ body {
 
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
+        font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
 }
 .Login:hover {
-    background-color: #313048;
-    color: #000000;
+    background-color: #091112;
+    color: #0c1515;
+}
+.Google {
+    width: 100%;
+    height: 40px;
+    max-width: 500px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    margin-top: -20px;
+
+}
+.Google-btn {
+   width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 24px;
+    background: linear-gradient(
+        135deg,
+        rgba(15, 20, 40, 0.55),
+        rgba(8, 12, 24, 0.35)
+    );
+
+    border: 1px solid rgba(130, 150, 255, 0.15);
+    border-radius: 24px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.45),
+        0 0 20px rgba(100,120,255,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+        font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+}
+.Google-btn:hover {
+    background-color: #091112;
+    color: #0c1515;
+}
+.Apple-btn {
+   width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 24px;
+    background: linear-gradient(
+        135deg,
+        rgba(15, 20, 40, 0.55),
+        rgba(8, 12, 24, 0.35)
+    );
+
+    border: 1px solid rgba(130, 150, 255, 0.15);
+    border-radius: 24px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.45),
+        0 0 20px rgba(100,120,255,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+        font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+}
+.Apple-btn:hover {
+    background-color: #091112;
+    color: #0c1515;
+}
+.Git-btn {
+   width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+        font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+    border-radius: 15px;
+    background: linear-gradient(
+        135deg,
+        rgba(15, 20, 40, 0.55),
+        rgba(8, 12, 24, 0.35)
+    );
+
+    border: 1px solid rgba(130, 150, 255, 0.15);
+    border-radius: 24px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.45),
+        0 0 20px rgba(100,120,255,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+.Git-btn:hover {
+    background-color: #091112;
+    color: #0c1515;
+}
+.Panda {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 24px;
+    margin-top: 11px;
+        font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
 }
