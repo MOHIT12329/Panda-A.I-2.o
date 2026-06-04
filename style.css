@@ -184,22 +184,17 @@ body {
     border-radius: 15px;
     background: linear-gradient(
         135deg,
-        rgba(15, 20, 40, 0.55),
-        rgba(8, 12, 24, 0.35)
+        #7c3aed,
+        #6366f1,
+        #3b82f6
     );
 
-    border: 1px solid rgba(130, 150, 255, 0.15);
-    border-radius: 24px;
+    color: white;
+    border: none;
+    border-radius: 15px;
 
     box-shadow:
-        0 8px 32px rgba(0,0,0,0.45),
-        0 0 20px rgba(100,120,255,0.08),
-        inset 0 1px 0 rgba(255,255,255,0.08);
-
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-        font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+        0 4px 20px rgba(99,102,241,0.4);
 }
 .Login:hover {
     background-color: #091112;
@@ -235,22 +230,17 @@ body {
     border-radius: 24px;
     background: linear-gradient(
         135deg,
-        rgba(15, 20, 40, 0.55),
-        rgba(8, 12, 24, 0.35)
+        #7c3aed,
+        #6366f1,
+        #3b82f6
     );
 
-    border: 1px solid rgba(130, 150, 255, 0.15);
-    border-radius: 24px;
+    color: white;
+    border: none;
+    border-radius: 15px;
 
     box-shadow:
-        0 8px 32px rgba(0,0,0,0.45),
-        0 0 20px rgba(100,120,255,0.08),
-        inset 0 1px 0 rgba(255,255,255,0.08);
-
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-        font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+        0 4px 20px rgba(99,102,241,0.4);
 }
 .Google-btn:hover {
     background-color: #091112;
@@ -272,22 +262,17 @@ body {
     border-radius: 24px;
     background: linear-gradient(
         135deg,
-        rgba(15, 20, 40, 0.55),
-        rgba(8, 12, 24, 0.35)
+        #7c3aed,
+        #6366f1,
+        #3b82f6
     );
 
-    border: 1px solid rgba(130, 150, 255, 0.15);
-    border-radius: 24px;
+    color: white;
+    border: none;
+    border-radius: 15px;
 
     box-shadow:
-        0 8px 32px rgba(0,0,0,0.45),
-        0 0 20px rgba(100,120,255,0.08),
-        inset 0 1px 0 rgba(255,255,255,0.08);
-
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-        font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+        0 4px 20px rgba(99,102,241,0.4);
 }
 .Apple-btn:hover {
     background-color: #091112;
@@ -311,20 +296,17 @@ body {
     border-radius: 15px;
     background: linear-gradient(
         135deg,
-        rgba(15, 20, 40, 0.55),
-        rgba(8, 12, 24, 0.35)
+        #7c3aed,
+        #6366f1,
+        #3b82f6
     );
 
-    border: 1px solid rgba(130, 150, 255, 0.15);
-    border-radius: 24px;
+    color: white;
+    border: none;
+    border-radius: 15px;
 
     box-shadow:
-        0 8px 32px rgba(0,0,0,0.45),
-        0 0 20px rgba(100,120,255,0.08),
-        inset 0 1px 0 rgba(255,255,255,0.08);
-
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
+        0 4px 20px rgba(99,102,241,0.4);
 }
 .Git-btn:hover {
     background-color: #091112;
@@ -338,4 +320,129 @@ body {
     margin-top: 11px;
         font-family: 'Montserrat', sans-serif;
     text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+}
+.Header1 {
+    width:90%;
+    max-width:600px;
+
+    height: 50px;
+    margin: 20px auto;
+
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    padding: 30px;
+
+    position: absolute;
+    top: -1%;
+    left: 56%;
+
+    background: linear-gradient(
+        135deg,
+        rgba(15, 20, 40, 0.55),
+        rgba(8, 12, 24, 0.35)
+    );
+
+    border: 1px solid rgba(130, 150, 255, 0.15);
+    border-radius: 24px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.45),
+        0 0 20px rgba(100,120,255,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+
+}
+.Contact{
+    width: 220px;
+    height: 45px;
+
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+
+    border: none;
+    border-radius: 15px;
+
+    background: linear-gradient(
+        135deg,
+        #FF0A6C,
+        #2D27FF,
+        white
+    );
+
+    color: #fff;
+
+    box-shadow: 0 4px 20px rgba(99,102,241,0.4);
+
+    transition: all 0.3s ease;
+}
+
+.Contact:hover,
+.About:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(99,102,241,0.6);
+}
+
+@media (max-width: 768px) {
+    .Contact,
+    .About {
+        width: 180px;
+        height: 42px;
+        font-size: 14px;
+    }
+}
+.About {
+    width: 220px;
+    height: 45px;
+
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 28%;
+    left: 56%;
+
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(22, 153, 176, 0.5);
+
+    border: none;
+    border-radius: 15px;
+
+    background: linear-gradient(
+        135deg,
+        #FF0A6C,
+        #2D27FF,
+        white
+    );
+
+    color: #fff;
+
+    box-shadow: 0 4px 20px rgba(99,102,241,0.4);
+
+    transition: all 0.3s ease;
+}
+
+.Contact:hover,
+.About:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(99,102,241,0.6);
+}
+
+@media (max-width: 768px) {
+    .Contact,
+    .About {
+        width: 180px;
+        height: 42px;
+        font-size: 14px;
+    }
 }
